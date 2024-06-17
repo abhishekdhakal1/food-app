@@ -1,0 +1,63 @@
+.header {
+  background: transparent;
+}
+.ul {
+  padding: 5px 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin-right: 10px;
+  background: transparent;
+}
+.abc:hover ,.ab:hover {
+  color: rgb(247, 36, 36);
+  text-shadow: 2px 2px 5px rgb(247, 124, 8);
+  background: transparent;
+}
+.li {
+  background: transparent;
+}
+.ab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-decoration: none;
+  color: #ddd6cb;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background: transparent;
+}
+
+.abc .img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+  background: transparent;
+}
+
+.abc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-decoration: none;
+  color: #ddd6cb;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background: transparent;
+}
+.active{
+  background: linear-gradient(90deg, #ff8a05 , #f9b331);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
